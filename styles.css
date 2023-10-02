@@ -1,0 +1,40 @@
+.container {
+    background-image: linear-gradient(to right, white , green);
+    min-height: 100vh; /* Ensure the container stretches to at least the height of the viewport */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .tab {
+    display: flex;
+    margin-top: 20px;
+    height: 40px;
+    background-color: greenyellow;
+
+  }
+  
+  .tablink {
+    color: white; /* Black text color */
+    background-color: cadetblue; /* White background color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+  }
+  
+  footer {
+    margin-top: auto; /* Push the footer to the bottom */
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  /* Smooth scrolling animation */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Scroll target pseudo-selector */
+  :target {
+    padding-top: 64px; /* Optional: Add a top padding to offset fixed header height */
+  }
